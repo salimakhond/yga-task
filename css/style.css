@@ -1025,11 +1025,13 @@ button {
 
 .single-blog {
     margin: auto;
-    width: 340px;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-details {
     padding: 30px;
+    padding-right: 160px;
 }
 
 .blog-details span {
@@ -1055,7 +1057,7 @@ button {
 }
 
 .blog-details .blog-btn button:hover a {
-    color: rgba(46, 19, 58, 1);
+    color: rgba(233, 50, 53, 1);
 }
 
 /* Contact Area Styles Start */
@@ -1188,10 +1190,19 @@ button {
     margin-bottom: 16px;
 }
 
+.single-footer ul li {
+    margin: 8px 0px;
+}
+
 .single-footer ul li a {
     font-size: 16px;
     line-height: 32px;
     color: rgba(51, 51, 51, 1);
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.single-footer ul li:hover a {
+    color: rgba(233, 50, 53, 1);
 }
 
 .social-link {
@@ -1870,6 +1881,7 @@ button {
     /* Footer Bottom Area*/
     .footer-bottom {
         margin: 0px 60px;
+        padding-top: 70px;
     }
 
     /* Footer Bottom Area*/
